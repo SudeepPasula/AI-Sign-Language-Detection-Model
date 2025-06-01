@@ -4,3 +4,4 @@ numpy
 pillow
 mediapipe
 scikit-learn
+gunicorn
