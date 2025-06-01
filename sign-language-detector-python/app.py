@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Load trained model
-model_dict = pickle.load(open('../model.p', 'rb'))
+model_dict = pickle.load(open('model.p', 'rb'))
 model = model_dict['model']
 
 # Initialize MediaPipe hands
