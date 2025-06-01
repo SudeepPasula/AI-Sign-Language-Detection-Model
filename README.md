@@ -9,8 +9,8 @@ Trains a Random Forest Classifier to recognize ASL letters
 
 Classifies gestures in real-time with a visual bounding box and label overlay
 
-🛠️ Tools & Technologies:
-Python 3.10
+🛠️ Tools & Technologies (Backend):
+Python
 
 OpenCV
 
@@ -21,6 +21,17 @@ Scikit-learn
 NumPy
 
 Matplotlib (for visualizations)
+
+🛠️ Tools & Technologies (Frontend):
+React
+
+React-webcam
+
+Axios
+
+HTML5 & CSS3
+
+Vercel 
 
 📁 Features:
 Dataset collection via webcam
