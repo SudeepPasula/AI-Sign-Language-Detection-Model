@@ -29,7 +29,7 @@ function App() {
 
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:5000/predict", formData);
+      const response = await axios.post("https://ai-sign-language-detection-model.onrender.com/predict", formData);
       const result = response.data.prediction;
       setPrediction(result);
       setOutputLine(prev => prev + result);
